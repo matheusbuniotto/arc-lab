@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pywz
+*.pyzw
+*.pyzwz
+python-code-professor   
+.vscode/
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.development
+.env.test
+.env.production
+
+# venv e uv
+venv/
+uv/
+.venv/
+.env/
+.env.local/
+.env.development.local/
+.env.test.local/
+.env.production.local/
+.env.development/
+.env.test/
+.env.production/
+
+# DuckDB (vault local)
+*.duckdb
+*.duckdb.wal
+
+# Back vault registry (local)
+mother-duck-rag/back/vaults.json
